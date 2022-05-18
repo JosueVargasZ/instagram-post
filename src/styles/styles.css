@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(17, 16, 16);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post{
+    width: 350px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.navbar{
+    flex-basis: 100%;
+    padding: 0.50rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar_submenu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.50rem;
+}
+.post__body{
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.post__picture{
+    width: 100%;
+    object-fit: cover;
+}
+.post__caption{
+    flex-basis: 100%;
+}
+.likedBy{
+    font-size: 14px;
+}
+.post__caption > p{
+    padding: 00.50rem;
+    text-align: justify;
+}
+.post__caption > p:last-child{
+    padding-bottom: 1.50rem;
+}
+
+
+
